@@ -1,9 +1,14 @@
 /*   Valores Globales   */
+@font-face {
+    font-family: 'Font';
+    src: url(arc/RobotoCondensed-Regular.ttf);
+}
 body{
     background: url(img/Background.jpg) center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'Font';
 }
 
 
@@ -20,10 +25,9 @@ body{
     background-color: #000000;
 }
 #img1{
-    width: 25%;
-}
-#img2{
-    width: 8%;
+    padding: 20px;
+    filter: drop-shadow(0 0 10px #FFFFFF);
+    width: 32%;
 }
 
 
@@ -32,7 +36,6 @@ body{
 
 /*   Modificando Footer   */
 .footer{
-    line-height: 2;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -43,5 +46,21 @@ body{
 }
 .footer__p-a{
     text-decoration: none;
+    color: #FFFFFF;
+}
+.footer__social{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.footer__social-boton{
+    line-height: 3;
+    padding: 5px;
+    margin: 10px;
+}
+.fa-brands{
+    font-size: 30px;
     color: #FFFFFF;
 }
