@@ -38,7 +38,59 @@ body{
 .main{
     width: 100%;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.obtener{
+    width: 55vw;
+    height: 55vh;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.obtener__CajaDeImagen{
+    width: 40%;
+}
+.obtener__CajaDeImagen-img{
+    border: 2px solid #FFFFFF;
+}
+.contenedor{
+    height: 85%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.obtener__Botones{
+    text-align: center;
+    width: 100%;
+}
+.obtener__texto{
+    width: 100%;
+}
+.obtener__texto-h2{
+    color: #FFFFFF;
+}
+.compra{
+    transition: all .5s;
+}
+#steamButton:hover{
+    color: #000000;
+    text-shadow: 0 0 10px #FFFFFF;
+}
+#xboxButton:hover{
+    color: #19b119;
+    text-shadow: 0 0 10px #FFFFFF;
+}
+#psButton:hover{
+    color: #0000c9;
+    text-shadow: 0 0 10px #FFFFFF;
+}
+
 
 
 
